@@ -18,12 +18,13 @@ function contar(){
             p = 1;
         }
         else if(i < f){
+                //Contagem Crescente
             for(let c = i; c <= f; c += p){
                 res.innerHTML += `${c} \u{1F449}`;
             }
         }
         else{
-            
+                //Contagem Regressiva
             for(let c = i; c >= f; c -= p){
                 res.innerHTML += `${c} \u{1F449}`;
             }
